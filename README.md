@@ -2,7 +2,7 @@
 
 ``` 
 YoutubeFeeds.Youtube youtube = new YoutubeFeeds.Youtube();
-var videos = youtube.getVideos("your video id");
+var videos = youtube.getVideos("your channel id");
 if (youtube.status)
 {
    foreach(var video in videos){
